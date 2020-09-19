@@ -78,3 +78,22 @@ section>.row>[class*=col] {
     height: 100%;
     overflow: auto;
 }
+
+@media (max-width: 992px) {
+
+    section>.row,
+    section>.row>[class*=col],
+    .my-image-sec,
+    .my-details-sec {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .table td,
+    .table th {
+        padding: 0.3rem;
+        vertical-align: middle;
+    }
+}
